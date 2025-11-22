@@ -3,9 +3,12 @@
    "how to change link color." */
 
 body {
-  background-color: white;
-  color: black;
-  font-family: Verdana;
+  	background-color: white;
+  	color: black;
+  	font-family: Verdana;
+	background-image: linear-gradient(#2f97bd, #0d6c5d);
+	background-size: cover;
+	margin: 0;
 }
 img {
 	max-width: 100%;
@@ -20,11 +23,15 @@ img {
 	margin: 20px auto;
 }
 body {
-	background-image: linear-gradient(#2f97bd, #0d6c5d);
-	background-size: cover;
 }
 footer {
 	background-image: url("./footer.png");
-	background-size: cover;
+	background-size: 100% 100%;
+	padding: 0px;
+	border: 0px;
+	min-width: 100%;
+	position: static;
+	left: 0;
+	bottom: 0;	
 	width: 100%;
 }
