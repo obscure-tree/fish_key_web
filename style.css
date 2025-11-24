@@ -2,6 +2,10 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
+.flavortext {
+	font-family: "Comic Sans MS";
+	font-size: 10px;
+}
 body {
   	background-color: white;
   	color: black;
@@ -43,8 +47,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	max-width: 700px;
-	min-width: 100px;
+	max-width: 900px;
 	margin: 0 auto;
 }
 #sidebar {
@@ -66,32 +69,31 @@ header {
 	border-radius: 10px;
 }
 footer {
-	background-image: url("./footer.png");
-	background-size: 100% 100%;
+	background-image: url("./footer-top.png"), url("./footer.png");
+	background-size: auto 30px, 100% 95%;
+	background-repeat: no-repeat;
+	background-position: 50% 0, bottom;
 	padding: 0px;
 	border: 0px;
 	min-width: 100%;
 	position: static;
-	left: 0;
-	bottom: 0;	
 	width: 100%;
 	margin: 0 auto;
 	min-height: 100px;
 }
-.flavortext {
-	font-family: "Comic Sans MS";
-	font-size: 10px;
-}
 .flex-line {
+	height: 100%;
 	display: flex;
 	flex-flow:row wrap;
 	align-items: center;
 	justify-content: center;
-	padding: 20px 0 0 0;
+	padding: 40px 0 0 0;
 }
 .flex-line-element{
-	margin: 5px;
+	margin: 3px;
 }
 #footer-text {
 	font-size: 10px;
+	margin: 0;
+	padding: 0 0 10px 0;
 }
